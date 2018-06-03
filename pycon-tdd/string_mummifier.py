@@ -10,8 +10,9 @@ class StringMummifier:
         
         result = []
 
-        for char in word:
+        for x in range(len(word)):
             if (char not in 'aiueo'):
                 result.append(char)
+            else:
         
         return ''.join(result)
